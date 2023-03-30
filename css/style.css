@@ -1,3 +1,11 @@
 main {
     height: calc(100vh - 72px);
 }
+
+.ms_class_avatar {
+    width: 40px;
+}
+
+.ms_stats {
+    width: 100%;
+}
