@@ -23,3 +23,12 @@ main {
 .ms_font_size_2 {
     font-size: 2rem;
 }
+
+.ms_process {
+    background-color: #FFC107;
+    color: white;
+}
+
+.ms_icon_table {
+    color: #6C757D;
+}
