@@ -96,11 +96,12 @@
 
             <div class="container-fluid">
                 <div class="row p-3">
-                    <div class="col-8 p-3 rounded border-1 border-secondary">
-                        <div class="border rounded border-1 border-secondary">
-                            <h3 class="p-2">Prossime classi</h3>
-                        </div>
-                            <div class="col-12 p-3 rounded border-1 border-secondary">
+                    <div class="col-8 p-3">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="p-2">Prossime classi</h3>
+                            </div>
+                            <div class="col-12 p-3">
                                 <table class="table p-3">
                                     <thead>
                                         <tr>
@@ -164,36 +165,37 @@
                                 </table>
                             </div>
                         </div>
-                        <div class="col-4 border-1 border-secondary">
-                            <h3 class="p-2">Todo</h3>
-                            <hr>
-                            <input type="checkbox"> Kickoff nuove classi
-                            <hr>
-                            <input type="checkbox"> Lezione su Bootstrap 5 in classe #75
-                            <hr>
-                            <input type="checkbox"> Controllare username 
-                            <hr>
-                            <div class="mt-4">
-                                <div>
-                                    <img src="./img/stats.jpeg" class="ms_stats" alt="">
+                    </div>
+                    <div class="col-4 p-3">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="p-2">Todo</h3>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><input type="checkbox"> Kickoff nuove classi</li>
+                                <li class="list-group-item"><input type="checkbox"> Lezione su Bootstrap 5 in classe #75
+                                <li class="list-group-item"><input type="checkbox"> Controllare username 
+                            </ul>
+                        </div>
+                            <div class="card mt-4">
+                                <img src="./img/stats.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
                                     <h4>Utenti attivi</h4>
                                     <p>Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
                                 </div>
-                                <div>
-                                    <p>Gennaio: 1200</p>
-                                    <hr>
-                                    <p>Febbraio: 800</p>
-                                    <hr>
-                                    <p>Marzo: 1500</p>
-                                    <hr>
-                                    <p>Visualizza report approfondito</p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Gennaio: 1200</li>
+                                    <li class="list-group-item">Febbraio: 800</li>
+                                    <li class="list-group-item">Marzo: 1500
+                                </ul>
+                                <div class="card-body">
+                                    <a href="#" class="card-link">Visualizza report approfondito</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
         
             
