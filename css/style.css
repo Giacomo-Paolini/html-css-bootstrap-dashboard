@@ -9,3 +9,17 @@ main {
 .ms_stats {
     width: 100%;
 }
+
+.ms_sidebar {
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051E34;
+}
+
+.ms_badge {
+    background-color: #165BBA;
+    color: white;
+}
+
+.ms_font_size_2 {
+    font-size: 2rem;
+}
