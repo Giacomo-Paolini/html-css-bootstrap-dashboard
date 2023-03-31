@@ -2,6 +2,15 @@ main {
     height: calc(100vh - 72px);
 }
 
+.ms_nav_btn {
+    color: white;
+}
+
+.ms_nav_btn:hover {
+    background-color: white;
+    color: black;
+}
+
 .ms_class_avatar {
     width: 40px;
 }
