@@ -29,6 +29,10 @@ tbody tr:hover td {
     background-color: rgb(228, 228, 228);
 }
 
+tbody tr i:hover {
+    border-color: black;
+}
+
 .ms_stats {
     width: 100%;
 }
